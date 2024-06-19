@@ -11,7 +11,7 @@ html
 {
   box-sizing: inherit;
 }
-*,h1,h2,h3,h4,h5,h6,p{
+*,h1,h2,h3,h4,h5,h6,p,hr{
   margin: 0;
   padding: 0;
 }
@@ -35,6 +35,7 @@ body
 }
 img
 {
+  display: flex;
   max-width: 100%;
   height: auto;
 }
@@ -69,9 +70,8 @@ select:-webkit-autofill:focus {
 {
   max-width: 1230px;
   width: 100%;
-  padding: 0 20px;
+  padding: 50px 20px;
   margin: 0 auto;
-  padding-top: 30px;
 }
 
 /* ** MAIN CONTENT ** */
@@ -119,14 +119,49 @@ select:-webkit-autofill:focus {
   max-width: 793px;
   text-align: left;
 }
+.certificate__header--info span{
+  color: #fff;
+}
 .certificate__header--label{
   position: absolute;
   top: 65px;
   right: 115px;
 }
 
-
-
-
+/* CERTIFICATE-INFO */
 .certificate__info {
+  position: relative;
+  padding: 250px 115px 85px;
+  background-image: url(../img/info-bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+.certificate__info--inner div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.certificate__info--inner div:first-child{
+  margin-bottom: 25px;
+}
+.certificate__info--img:first-child {
+  border-bottom: 0.38px solid #000000;
+  padding-bottom: 14px;
+}
+.certificate__info--title {
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+color: #000000;
+}
+.certificate__info--date {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #5c5c5c;
+}
+.certificate__info--qr {
+  position: absolute;
+  top: -75px;
+  left: calc(50% - 75px);
 }

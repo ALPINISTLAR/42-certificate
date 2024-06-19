@@ -87,7 +87,7 @@ select:-webkit-autofill:focus {
   background-image: url(../img/header-bg.png);
   background-size: cover;
 }
-.certificate__header--about {
+.certificate__header-about {
   max-width: 384px;
   font-size: 34px;
   font-weight: 600;
@@ -95,10 +95,10 @@ select:-webkit-autofill:focus {
   color: #D9D9D9;
   margin-bottom: 36px;
 }
-.certificate__header--about span{
+.certificate__header-about span{
   color: #FFD600;
 }
-.certificate__header--title {
+.certificate__header-title {
   font-size: 147px;
   font-weight: 800;
   line-height: 172px;
@@ -107,7 +107,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
-.certificate__header--name {
+.certificate__header-name {
   font-size: 56px;
   font-weight: 700;
   line-height: 65px;
@@ -115,14 +115,14 @@ select:-webkit-autofill:focus {
   text-transform: capitalize;
   margin-bottom: 24px;
 }
-.certificate__header--info {
+.certificate__header-info {
   max-width: 793px;
   text-align: left;
 }
-.certificate__header--info span{
+.certificate__header-info span{
   color: #fff;
 }
-.certificate__header--label{
+.certificate__header-label{
   position: absolute;
   top: 65px;
   right: 115px;
@@ -136,31 +136,31 @@ select:-webkit-autofill:focus {
   background-size: cover;
   background-position: center center;
 }
-.certificate__info--inner div {
+.certificate__info-inner div {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
-.certificate__info--inner div:first-child{
+.certificate__info-inner div:first-child{
   margin-bottom: 25px;
 }
-.certificate__info--img:first-child {
+.certificate__info-img:first-child {
   border-bottom: 0.38px solid #000000;
   padding-bottom: 14px;
 }
-.certificate__info--title {
+.certificate__info-title {
 font-size: 24px;
 font-weight: 400;
 line-height: 35px;
 color: #000000;
 }
-.certificate__info--date {
+.certificate__info-date {
   font-size: 24px;
   font-weight: 500;
   line-height: 35px;
   color: #5c5c5c;
 }
-.certificate__info--qr {
+.certificate__info-qr {
   position: absolute;
   top: -75px;
   left: calc(50% - 75px);
